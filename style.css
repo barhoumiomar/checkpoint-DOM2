@@ -1,0 +1,50 @@
+/* Style de la page */
+body {
+    font-family: Arial, sans-serif;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 10px;
+    background-color: #ffffff;
+  }
+  
+  /* Conteneur */
+  .container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Titre */
+  h1 {
+    color: #4852df;
+    font-size: 50px;
+    font-family: monospace;
+  }
+  
+  /* Boîte de couleur */
+  #color-box {
+    width: 300px;
+    height: 300px;
+    background-color: #3498db;
+    margin: 20px auto;
+    border-radius: 1000px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Bouton */
+  #change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #change-color-btn:hover {
+    background-color: #2980b9;
+  }
+  
